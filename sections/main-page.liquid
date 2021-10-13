@@ -1,0 +1,35 @@
+{% if section.settings.show_page_content %}
+  <div class="central content py-medium content-central">
+    {% assign title = page.title  | split: " " %}
+    <h1 class="feature-header" data-cc-animate>
+      {% for member in title %}
+        <span>{{ member }}</span>
+      {% endfor %}</h1>
+
+      {% if page.url == '/pages/shipping-policy' %}
+        <a href="/pages/return-policy" class="c-link">View Returns</a>
+      {% elsif page.url == '/pages/return-policy' %}
+         <a href="/pages/shipping-policy" class="c-link">View Shipping</a>
+      {% endif %}
+  </div>
+
+  <div class="rte c-pagecontent" data-cc-animate data-cc-animate-delay="0.2s">
+     <div class="central py-medium">
+        {{ page.content }}
+      </div>
+    </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Page",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_page_content",
+      "label": "Show page content",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

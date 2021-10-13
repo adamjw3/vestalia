@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-contact",
+      "settings": {
+        "show_title": true,
+        "image": "shopify:\/\/shop_images\/4118072537_2_7_2_1.jpg"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

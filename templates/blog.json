@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "blog_layout": "collage",
+        "blog_posts_per_page": 10,
+        "blog_posts_per_row_mobile": "2",
+        "blog_show_title": true,
+        "blog_show_filter": false,
+        "blog_show_rss_link": false,
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "blog_excerpt": "hover",
+        "blog_image_shape": "natural"
+      }
+    },
+    "1633597784a18891e9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "layout": "carousel",
+        "show_vendor": false,
+        "grid": 3,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": true,
+        "show_view_all": true
+      }
+    },
+    "16335981499e448ad9": {
+      "type": "collection-list",
+      "blocks": {
+        "16335981499e448ad9-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16335981499e448ad9-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16335981499e448ad9-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16335981499e448ad9-0",
+        "16335981499e448ad9-1",
+        "16335981499e448ad9-2"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "layout": "carousel",
+        "grid": 3,
+        "grid_mobile": "2",
+        "show_view_all": true,
+        "alternate_bg_color": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1633597784a18891e9",
+    "16335981499e448ad9"
+  ]
+}
